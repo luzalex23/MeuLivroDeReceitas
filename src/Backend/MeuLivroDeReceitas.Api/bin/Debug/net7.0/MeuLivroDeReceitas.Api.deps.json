@@ -8,21 +8,24 @@
     ".NETCoreApp,Version=v7.0": {
       "MeuLivroDeReceitas.Api/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.OpenApi": "7.0.11",
+          "MeuLivroDeReceitas.Application": "1.0.0",
+          "MeuLivroDeReceitas.Comunication": "1.0.0",
+          "MeuLivroDeReceitas.Exceptions": "1.0.0",
+          "Microsoft.AspNetCore.OpenApi": "7.0.12",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
           "MeuLivroDeReceitas.Api.dll": {}
         }
       },
-      "Microsoft.AspNetCore.OpenApi/7.0.11": {
+      "Microsoft.AspNetCore.OpenApi/7.0.12": {
         "dependencies": {
           "Microsoft.OpenApi": "1.4.3"
         },
         "runtime": {
           "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll": {
-            "assemblyVersion": "7.0.11.0",
-            "fileVersion": "7.0.1123.42502"
+            "assemblyVersion": "7.0.12.0",
+            "fileVersion": "7.0.1223.47922"
           }
         }
       },
@@ -72,6 +75,41 @@
             "fileVersion": "6.5.0.0"
           }
         }
+      },
+      "MeuLivroDeReceitas.Application/1.0.0": {
+        "dependencies": {
+          "MeuLivroDeReceitas.Comunication": "1.0.0",
+          "MeuLivroDeReceitas.Domain": "1.0.0",
+          "MeuLivroDeReceitas.Exceptions": "1.0.0",
+          "Microsoft.AspNetCore.OpenApi": "7.0.12"
+        },
+        "runtime": {
+          "MeuLivroDeReceitas.Application.dll": {}
+        }
+      },
+      "MeuLivroDeReceitas.Comunication/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "7.0.12"
+        },
+        "runtime": {
+          "MeuLivroDeReceitas.Comunication.dll": {}
+        }
+      },
+      "MeuLivroDeReceitas.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "7.0.12"
+        },
+        "runtime": {
+          "MeuLivroDeReceitas.Domain.dll": {}
+        }
+      },
+      "MeuLivroDeReceitas.Exceptions/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "7.0.12"
+        },
+        "runtime": {
+          "MeuLivroDeReceitas.Exceptions.dll": {}
+        }
       }
     }
   },
@@ -81,12 +119,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.OpenApi/7.0.11": {
+    "Microsoft.AspNetCore.OpenApi/7.0.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+3PUTx950QiUzw9CriQfCpfv11cJ0uMzQrDS3BwkEDlRduAh/2+1mxDy2S8wS1j3zyQpjbtQU0fFeWTU8j0Ljg==",
-      "path": "microsoft.aspnetcore.openapi/7.0.11",
-      "hashPath": "microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512"
+      "sha512": "sha512-KWfmBcvglieWin4srGSPiREh8/8+qCJpME9MPbsN2OVOwKkMXKta2K82Xk0BcZrZCk9tftMBO6qYfJgz0goQpg==",
+      "path": "microsoft.aspnetcore.openapi/7.0.12",
+      "hashPath": "microsoft.aspnetcore.openapi.7.0.12.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",
@@ -129,6 +167,26 @@
       "sha512": "sha512-OvbvxX+wL8skxTBttcBsVxdh73Fag4xwqEU2edh4JMn7Ws/xJHnY/JB1e9RoCb6XpDxUF3hD9A0Z1lEUx40Pfw==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.5.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    },
+    "MeuLivroDeReceitas.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MeuLivroDeReceitas.Comunication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MeuLivroDeReceitas.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MeuLivroDeReceitas.Exceptions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
