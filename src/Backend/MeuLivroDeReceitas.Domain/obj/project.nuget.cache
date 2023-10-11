@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "rvtEmwneJAYVCX9olskJIwZWCeOt5jTQh/EnEk+OPhwgjTBIDfejznKExpt5oFXDdtkDm1G/cONHefWMDMj6uw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alex_\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.12\\microsoft.aspnetcore.openapi.7.0.12.nupkg.sha512",
+    "C:\\Users\\alex_\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6FPCe77flooJftOE+RuKy+oH3FeaRNaQLYyBxYF4Hnw=",
+  "Source": "MeuLivroDeReceitas.Api",
+  "BasePath": "_content/MeuLivroDeReceitas.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
