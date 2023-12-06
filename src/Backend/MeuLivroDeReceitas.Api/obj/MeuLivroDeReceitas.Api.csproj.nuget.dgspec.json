@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Api\\MeuLivroDeReceitas.Api.csproj": {}
+    "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Api\\MeuLivroDeReceitas.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Api\\MeuLivroDeReceitas.Api.csproj": {
+    "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Api\\MeuLivroDeReceitas.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Api\\MeuLivroDeReceitas.Api.csproj",
+        "projectUniqueName": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Api\\MeuLivroDeReceitas.Api.csproj",
         "projectName": "MeuLivroDeReceitas.Api",
-        "projectPath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Api\\MeuLivroDeReceitas.Api.csproj",
+        "projectPath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Api\\MeuLivroDeReceitas.Api.csproj",
         "packagesPath": "C:\\Users\\alex_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Api\\obj\\",
+        "outputPath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,14 +33,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\MeuLivroDeReceitas.Application.csproj": {
-                "projectPath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\MeuLivroDeReceitas.Application.csproj"
+              "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\MeuLivroDeReceitas.Application.csproj": {
+                "projectPath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\MeuLivroDeReceitas.Application.csproj"
               },
-              "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunication\\MeuLivroDeReceitas.Comunication.csproj": {
-                "projectPath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunication\\MeuLivroDeReceitas.Comunication.csproj"
+              "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunication\\MeuLivroDeReceitas.Comunication.csproj": {
+                "projectPath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunication\\MeuLivroDeReceitas.Comunication.csproj"
               },
-              "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj": {
-                "projectPath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj"
+              "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj": {
+                "projectPath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj"
               }
             }
           }
@@ -83,18 +83,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\MeuLivroDeReceitas.Application.csproj": {
+    "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\MeuLivroDeReceitas.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\MeuLivroDeReceitas.Application.csproj",
+        "projectUniqueName": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\MeuLivroDeReceitas.Application.csproj",
         "projectName": "MeuLivroDeReceitas.Application",
-        "projectPath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\MeuLivroDeReceitas.Application.csproj",
+        "projectPath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\MeuLivroDeReceitas.Application.csproj",
         "packagesPath": "C:\\Users\\alex_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\obj\\",
+        "outputPath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -116,14 +116,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj": {
-                "projectPath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj"
+              "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj": {
+                "projectPath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj"
               },
-              "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunication\\MeuLivroDeReceitas.Comunication.csproj": {
-                "projectPath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunication\\MeuLivroDeReceitas.Comunication.csproj"
+              "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunication\\MeuLivroDeReceitas.Comunication.csproj": {
+                "projectPath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunication\\MeuLivroDeReceitas.Comunication.csproj"
               },
-              "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj": {
-                "projectPath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj"
+              "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj": {
+                "projectPath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj"
               }
             }
           }
@@ -159,18 +159,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj": {
+    "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj",
         "projectName": "MeuLivroDeReceitas.Domain",
-        "projectPath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj",
+        "projectPath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj",
         "packagesPath": "C:\\Users\\alex_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\obj\\",
+        "outputPath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -225,18 +225,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunication\\MeuLivroDeReceitas.Comunication.csproj": {
+    "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunication\\MeuLivroDeReceitas.Comunication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunication\\MeuLivroDeReceitas.Comunication.csproj",
+        "projectUniqueName": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunication\\MeuLivroDeReceitas.Comunication.csproj",
         "projectName": "MeuLivroDeReceitas.Comunication",
-        "projectPath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunication\\MeuLivroDeReceitas.Comunication.csproj",
+        "projectPath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunication\\MeuLivroDeReceitas.Comunication.csproj",
         "packagesPath": "C:\\Users\\alex_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunication\\obj\\",
+        "outputPath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -291,18 +291,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj": {
+    "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj",
+        "projectUniqueName": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj",
         "projectName": "MeuLivroDeReceitas.Exceptions",
-        "projectPath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj",
+        "projectPath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj",
         "packagesPath": "C:\\Users\\alex_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\obj\\",
+        "outputPath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -357,7 +357,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
