@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w6ugq3WY8WjqiFq9DfGdvj/2OrIZxzkGokSC23vf0Oi5jYmNadeEyRSVEUA8TpTEE8YpY9aZJOmDaKeUBt4bQA==",
+  "dgSpecHash": "OQDOHGVICROkUTge9qLJhyNo9M41/MuxGWKlQ4RGYCOuXCvZhXP7B4/rfOhuwDsbgZB5Ri/u46ykIVCpaY6vNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\tests\\UserCases.Testes\\UserCases.Testes.csproj",
+  "projectFilePath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\tests\\UserCases.Testes\\UserCases.Testes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alex_\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\alex_\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.12\\microsoft.aspnetcore.openapi.7.0.12.nupkg.sha512",

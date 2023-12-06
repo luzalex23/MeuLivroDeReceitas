@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\tests\\Validators.Testes\\Validators.Testes.csproj": {}
+    "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\tests\\Validators.Testes\\Validators.Testes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\tests\\Validators.Testes\\Validators.Testes.csproj": {
+    "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\tests\\Validators.Testes\\Validators.Testes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\tests\\Validators.Testes\\Validators.Testes.csproj",
+        "projectUniqueName": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\tests\\Validators.Testes\\Validators.Testes.csproj",
         "projectName": "Validators.Testes",
-        "projectPath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\tests\\Validators.Testes\\Validators.Testes.csproj",
+        "projectPath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\tests\\Validators.Testes\\Validators.Testes.csproj",
         "packagesPath": "C:\\Users\\alex_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\tests\\Validators.Testes\\obj\\",
+        "outputPath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\tests\\Validators.Testes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -86,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

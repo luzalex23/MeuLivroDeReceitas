@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zc2oiUwNJOFMyjvBXJQnHn5Ah7QBNWXEdV6SoZTS1zUiGiFzbCbhkyU7vchOZDa7m4TMB8Vd6butc59JPjSnoA==",
+  "dgSpecHash": "MHv45JnhlxxK8muX40JqmTZ0UYk2t0qxpeR1yWOlnVKHxHVm7c0vPkHxqvD1UT+hIl5n9Fl3mbV5bp1IIpODCA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\tests\\WebApi.Testes\\WebApi.Testes.csproj",
+  "projectFilePath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\tests\\WebApi.Testes\\WebApi.Testes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alex_\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\alex_\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.12\\microsoft.aspnetcore.openapi.7.0.12.nupkg.sha512",
