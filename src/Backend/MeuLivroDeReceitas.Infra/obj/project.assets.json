@@ -98,11 +98,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Infra\\MeuLivroDeReceitas.Infra.csproj",
+      "projectUniqueName": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Infra\\MeuLivroDeReceitas.Infra.csproj",
       "projectName": "MeuLivroDeReceitas.Infra",
-      "projectPath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Infra\\MeuLivroDeReceitas.Infra.csproj",
+      "projectPath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Infra\\MeuLivroDeReceitas.Infra.csproj",
       "packagesPath": "C:\\Users\\alex_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Infra\\obj\\",
+      "outputPath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -124,8 +124,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj": {
-              "projectPath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj"
+            "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj": {
+              "projectPath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj"
             }
           }
         }
@@ -161,7 +161,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

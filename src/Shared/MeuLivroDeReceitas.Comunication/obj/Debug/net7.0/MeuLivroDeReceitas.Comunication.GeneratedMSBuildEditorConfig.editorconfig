@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MeuLivroDeReceitas.Comunication
-build_property.ProjectDir = C:\Users\alex_\Developer\MeuLivroDeReceitas\src\Shared\MeuLivroDeReceitas.Comunication\
+build_property.ProjectDir = C:\Users\alex_\Source\Repos\MeuLivroDeReceitas\src\Shared\MeuLivroDeReceitas.Comunication\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

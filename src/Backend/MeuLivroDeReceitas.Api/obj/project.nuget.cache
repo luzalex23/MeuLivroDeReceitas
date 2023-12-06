@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EwEz/CE2WGtVw/kiJp7CEBLu4z8RYySsgTE0y1KWgmSi+6od8rdQMP4kFWqxUhl3HD24yonAHv1fs0z9AcVz8g==",
+  "dgSpecHash": "uTAhOUCEWBrnbvM9YraIdQ1ibSLnU9Z3asw0x9BxXziiJPgg8Bl4oymD8MUNnzadNVkBTwH35oUAmnd/p+E0sg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alex_\\Developer\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Api\\MeuLivroDeReceitas.Api.csproj",
+  "projectFilePath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Api\\MeuLivroDeReceitas.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alex_\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.12\\microsoft.aspnetcore.openapi.7.0.12.nupkg.sha512",
     "C:\\Users\\alex_\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
