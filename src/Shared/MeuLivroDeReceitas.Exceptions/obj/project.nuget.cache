@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "aNDNvuPzry53+O9omcbdmUGUHDR3sKB89vS1yQ65+OTXGzPJzyZfSCuz6ec+ykyc+oLqf4xTCLWOZEyWAviMhQ==",
+  "dgSpecHash": "5nol7qt+V6aQz3GuSqDj3qU71jLC8ZfCUwCh/Yt0OesuFUkVvRUYlwxgSqA52p0BHewPPDWplUwIxSeeprnHNQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\alex_\\Source\\Repos\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\alex_\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.12\\microsoft.aspnetcore.openapi.7.0.12.nupkg.sha512",
+    "C:\\Users\\alex_\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
     "C:\\Users\\alex_\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512"
   ],
   "logs": []

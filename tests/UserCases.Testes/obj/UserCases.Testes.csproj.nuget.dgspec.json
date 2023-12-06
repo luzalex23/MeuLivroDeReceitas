@@ -47,11 +47,11 @@
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.12, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.9.0-preview-23503-02, )"
+              "version": "[17.9.0-preview-23577-04, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -61,13 +61,13 @@
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.5.2-pre.6, )"
+              "version": "[2.6.2, )"
             },
             "xunit.runner.visualstudio": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.5.2-pre.10, )"
+              "version": "[2.5.4, )"
             }
           },
           "imports": [

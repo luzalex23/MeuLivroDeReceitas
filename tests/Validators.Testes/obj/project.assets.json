@@ -8,18 +8,18 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
-      "Microsoft.AspNetCore.OpenApi/7.0.12": {
+      "Microsoft.AspNetCore.OpenApi/8.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.OpenApi": "1.4.3"
         },
         "compile": {
-          "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll": {
+          "lib/net8.0/Microsoft.AspNetCore.OpenApi.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll": {
+          "lib/net8.0/Microsoft.AspNetCore.OpenApi.dll": {
             "related": ".xml"
           }
         },
@@ -27,7 +27,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Microsoft.CodeCoverage/17.9.0-preview-23503-02": {
+      "Microsoft.CodeCoverage/17.9.0-preview-23577-04": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
@@ -40,11 +40,11 @@
           "build/netstandard2.0/Microsoft.CodeCoverage.targets": {}
         }
       },
-      "Microsoft.NET.Test.Sdk/17.9.0-preview-23503-02": {
+      "Microsoft.NET.Test.Sdk/17.9.0-preview-23577-04": {
         "type": "package",
         "dependencies": {
-          "Microsoft.CodeCoverage": "17.9.0-preview-23503-02",
-          "Microsoft.TestPlatform.TestHost": "17.9.0-preview-23503-02"
+          "Microsoft.CodeCoverage": "17.9.0-preview-23577-04",
+          "Microsoft.TestPlatform.TestHost": "17.9.0-preview-23577-04"
         },
         "compile": {
           "lib/netcoreapp3.1/_._": {}
@@ -91,7 +91,7 @@
           }
         }
       },
-      "Microsoft.TestPlatform.ObjectModel/17.9.0-preview-23503-02": {
+      "Microsoft.TestPlatform.ObjectModel/17.9.0-preview-23577-04": {
         "type": "package",
         "dependencies": {
           "System.Reflection.Metadata": "1.6.0"
@@ -187,10 +187,10 @@
           }
         }
       },
-      "Microsoft.TestPlatform.TestHost/17.9.0-preview-23503-02": {
+      "Microsoft.TestPlatform.TestHost/17.9.0-preview-23577-04": {
         "type": "package",
         "dependencies": {
-          "Microsoft.TestPlatform.ObjectModel": "17.9.0-preview-23503-02",
+          "Microsoft.TestPlatform.ObjectModel": "17.9.0-preview-23577-04",
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
@@ -1630,12 +1630,12 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "xunit/2.5.2-pre.6": {
+      "xunit/2.6.2": {
         "type": "package",
         "dependencies": {
-          "xunit.analyzers": "1.4.0-pre.9",
-          "xunit.assert": "2.5.2-pre.6",
-          "xunit.core": "[2.5.2-pre.6]"
+          "xunit.analyzers": "1.6.0",
+          "xunit.assert": "2.6.2",
+          "xunit.core": "[2.6.2]"
         }
       },
       "xunit.abstractions/2.0.3": {
@@ -1651,30 +1651,27 @@
           }
         }
       },
-      "xunit.analyzers/1.4.0-pre.9": {
+      "xunit.analyzers/1.6.0": {
         "type": "package"
       },
-      "xunit.assert/2.5.2-pre.6": {
+      "xunit.assert/2.6.2": {
         "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1"
-        },
         "compile": {
-          "lib/netstandard1.1/xunit.assert.dll": {
+          "lib/net6.0/xunit.assert.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard1.1/xunit.assert.dll": {
+          "lib/net6.0/xunit.assert.dll": {
             "related": ".xml"
           }
         }
       },
-      "xunit.core/2.5.2-pre.6": {
+      "xunit.core/2.6.2": {
         "type": "package",
         "dependencies": {
-          "xunit.extensibility.core": "[2.5.2-pre.6]",
-          "xunit.extensibility.execution": "[2.5.2-pre.6]"
+          "xunit.extensibility.core": "[2.6.2]",
+          "xunit.extensibility.execution": "[2.6.2]"
         },
         "build": {
           "build/xunit.core.props": {},
@@ -1685,7 +1682,7 @@
           "buildMultiTargeting/xunit.core.targets": {}
         }
       },
-      "xunit.extensibility.core/2.5.2-pre.6": {
+      "xunit.extensibility.core/2.6.2": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.1",
@@ -1702,11 +1699,11 @@
           }
         }
       },
-      "xunit.extensibility.execution/2.5.2-pre.6": {
+      "xunit.extensibility.execution/2.6.2": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.1",
-          "xunit.extensibility.core": "[2.5.2-pre.6]"
+          "xunit.extensibility.core": "[2.6.2]"
         },
         "compile": {
           "lib/netstandard1.1/xunit.execution.dotnet.dll": {
@@ -1719,7 +1716,7 @@
           }
         }
       },
-      "xunit.runner.visualstudio/2.5.2-pre.10": {
+      "xunit.runner.visualstudio/2.5.4": {
         "type": "package",
         "compile": {
           "lib/net6.0/_._": {}
@@ -1787,25 +1784,25 @@
         "coverlet.collector.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.OpenApi/7.0.12": {
-      "sha512": "KWfmBcvglieWin4srGSPiREh8/8+qCJpME9MPbsN2OVOwKkMXKta2K82Xk0BcZrZCk9tftMBO6qYfJgz0goQpg==",
+    "Microsoft.AspNetCore.OpenApi/8.0.0": {
+      "sha512": "T4mwMvPSOYAp+KeQ4xO8H2rxpiOMJ9W/7yBBkUTMp96AHtGlPN4s7hbax2tM61LxTY775JKL4fiv5grn41EHXw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.openapi/7.0.12",
+      "path": "microsoft.aspnetcore.openapi/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll",
-        "lib/net7.0/Microsoft.AspNetCore.OpenApi.xml",
-        "microsoft.aspnetcore.openapi.7.0.12.nupkg.sha512",
+        "lib/net8.0/Microsoft.AspNetCore.OpenApi.dll",
+        "lib/net8.0/Microsoft.AspNetCore.OpenApi.xml",
+        "microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
         "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
-    "Microsoft.CodeCoverage/17.9.0-preview-23503-02": {
-      "sha512": "Scicnw3vdsiOsmSO1Btbx3k/BcbEFQwueRZCupyLRS5VOW01itH5BN4nzDLMT/QZkJEIJo1CH4y9Ffj82iuZpA==",
+    "Microsoft.CodeCoverage/17.9.0-preview-23577-04": {
+      "sha512": "ZLa5Bx8OU0edRoZ5j4u323ny/1Bow2dCGIudx2MPlKGcA7bkvVG5eVT2UtdBwpLIa8PX8iD+odtGzm7ux6dNBQ==",
       "type": "package",
-      "path": "microsoft.codecoverage/17.9.0-preview-23503-02",
+      "path": "microsoft.codecoverage/17.9.0-preview-23577-04",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1864,14 +1861,14 @@
         "build/netstandard2.0/zh-Hant/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
         "lib/net462/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
         "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
-        "microsoft.codecoverage.17.9.0-preview-23503-02.nupkg.sha512",
+        "microsoft.codecoverage.17.9.0-preview-23577-04.nupkg.sha512",
         "microsoft.codecoverage.nuspec"
       ]
     },
-    "Microsoft.NET.Test.Sdk/17.9.0-preview-23503-02": {
-      "sha512": "6dB0fkiUBKqmqoAuZZjoFWKsqLrdJAQKr9kMEAMeslbihbfY7WLTask9FxBLs5EBePykJOre7iG80bEdVYWMpw==",
+    "Microsoft.NET.Test.Sdk/17.9.0-preview-23577-04": {
+      "sha512": "/Cg7RHRyG/Q5ViID+mto4fUHeuVrYRR+ZdtHWJ8qysHwqdknzGyEjPcHYPmXR2O71bO718kp//lZlQGibIGtKw==",
       "type": "package",
-      "path": "microsoft.net.test.sdk/17.9.0-preview-23503-02",
+      "path": "microsoft.net.test.sdk/17.9.0-preview-23577-04",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1887,7 +1884,7 @@
         "buildMultiTargeting/Microsoft.NET.Test.Sdk.props",
         "lib/net462/_._",
         "lib/netcoreapp3.1/_._",
-        "microsoft.net.test.sdk.17.9.0-preview-23503-02.nupkg.sha512",
+        "microsoft.net.test.sdk.17.9.0-preview-23577-04.nupkg.sha512",
         "microsoft.net.test.sdk.nuspec"
       ]
     },
@@ -1935,10 +1932,10 @@
         "microsoft.openapi.nuspec"
       ]
     },
-    "Microsoft.TestPlatform.ObjectModel/17.9.0-preview-23503-02": {
-      "sha512": "gfM4m3HAPuteorCvG9ug7+GcuDIDOQcHAvAHWjNaL5SUjqAhumH1B78M580NgI+sCs578bcmGsuawK9ZYQIiGQ==",
+    "Microsoft.TestPlatform.ObjectModel/17.9.0-preview-23577-04": {
+      "sha512": "v3WCSus9RskopcMQ26M7yL5sjxzZreTfbI0NLlBupjULCwl4Zv/4glGYLEpCYWYHcoHVk4+Zl4XW2xM5Nd0T1g==",
       "type": "package",
-      "path": "microsoft.testplatform.objectmodel/17.9.0-preview-23503-02",
+      "path": "microsoft.testplatform.objectmodel/17.9.0-preview-23577-04",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2031,14 +2028,14 @@
         "lib/netstandard2.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
-        "microsoft.testplatform.objectmodel.17.9.0-preview-23503-02.nupkg.sha512",
+        "microsoft.testplatform.objectmodel.17.9.0-preview-23577-04.nupkg.sha512",
         "microsoft.testplatform.objectmodel.nuspec"
       ]
     },
-    "Microsoft.TestPlatform.TestHost/17.9.0-preview-23503-02": {
-      "sha512": "i0CAw9dVYVsq/p/AhIv/67yg7jbjCzyJMdbLIaWaIU3YXABMxWjmJaZJsCB9c3R/j9Ze0RR3cNwh+ftJLnmlfA==",
+    "Microsoft.TestPlatform.TestHost/17.9.0-preview-23577-04": {
+      "sha512": "u4euJ+CJHjrtFabsUNOMtORR9cxy6hW0s8mA1+vra/w5yIH1WYfD/cX+QNN6KXGKLK8qS5GD20Hzbml0n8q9qg==",
       "type": "package",
-      "path": "microsoft.testplatform.testhost/17.9.0-preview-23503-02",
+      "path": "microsoft.testplatform.testhost/17.9.0-preview-23577-04",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2101,7 +2098,7 @@
         "lib/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll",
         "lib/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll",
         "lib/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll",
-        "microsoft.testplatform.testhost.17.9.0-preview-23503-02.nupkg.sha512",
+        "microsoft.testplatform.testhost.17.9.0-preview-23577-04.nupkg.sha512",
         "microsoft.testplatform.testhost.nuspec"
       ]
     },
@@ -5392,16 +5389,16 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "xunit/2.5.2-pre.6": {
-      "sha512": "xVKVeXrcdLnAZzBrbYLf89dm5Hv4H7L8eEF7GdRcZn8nbS7ckIICO3cBgnIHog21euzc2W49ZPyi0Dkb1UXYzw==",
+    "xunit/2.6.2": {
+      "sha512": "sErOyzTZBfgeLcdu5y3CkhCirZikCe9GwEv56jbQRjSa4FyI2tIHjfBRvlWqg7M78bfAGajrreH0IHnxrUOpVA==",
       "type": "package",
-      "path": "xunit/2.5.2-pre.6",
+      "path": "xunit/2.6.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "_content/README.md",
         "_content/logo-128-transparent.png",
-        "xunit.2.5.2-pre.6.nupkg.sha512",
+        "xunit.2.6.2.nupkg.sha512",
         "xunit.nuspec"
       ]
     },
@@ -5422,10 +5419,10 @@
         "xunit.abstractions.nuspec"
       ]
     },
-    "xunit.analyzers/1.4.0-pre.9": {
-      "sha512": "vVeJ50/L3gsvYh/BMrceu8VxGkh7fYWEhxm3mfCakp6getpyTABRVf6VQTOmKlD7iOKo2/FSTvZuig8TgLefmQ==",
+    "xunit.analyzers/1.6.0": {
+      "sha512": "b/Wbrqr/bFvcjqAbYdJyCCvjz+PjjKMnoK/K6sbcCBu94pqAkB2vBAHFo87wNq2awsLPAuq5MA7q0XexyQ3mJQ==",
       "type": "package",
-      "path": "xunit.analyzers/1.4.0-pre.9",
+      "path": "xunit.analyzers/1.6.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -5436,29 +5433,31 @@
         "analyzers/dotnet/cs/xunit.analyzers.fixes.dll",
         "tools/install.ps1",
         "tools/uninstall.ps1",
-        "xunit.analyzers.1.4.0-pre.9.nupkg.sha512",
+        "xunit.analyzers.1.6.0.nupkg.sha512",
         "xunit.analyzers.nuspec"
       ]
     },
-    "xunit.assert/2.5.2-pre.6": {
-      "sha512": "NKMKk4UcpHJi3BB0NikBV+TGUMkNjQqMHXmXm+sIcF4xVlRmG/DsZ59bh9QXaI+ulC6gZlxCY5J3A4//+rl++g==",
+    "xunit.assert/2.6.2": {
+      "sha512": "JOj2+zWS08M59bCk3MkZFcKj2Izb2zwkHSPIKJLvnZYLR2Nw6HifjvBCpa8XhMF3mxDuGwZ0+ncmlhE9WoEaZw==",
       "type": "package",
-      "path": "xunit.assert/2.5.2-pre.6",
+      "path": "xunit.assert/2.6.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "_content/README.md",
         "_content/logo-128-transparent.png",
+        "lib/net6.0/xunit.assert.dll",
+        "lib/net6.0/xunit.assert.xml",
         "lib/netstandard1.1/xunit.assert.dll",
         "lib/netstandard1.1/xunit.assert.xml",
-        "xunit.assert.2.5.2-pre.6.nupkg.sha512",
+        "xunit.assert.2.6.2.nupkg.sha512",
         "xunit.assert.nuspec"
       ]
     },
-    "xunit.core/2.5.2-pre.6": {
-      "sha512": "gVnSrpnjmAJkKrodH7zcjTOfP/XgLjONOfTm4QIqLPuZGjxwWhMKq4Oes6k3sw6lQpiXZmppXvKJJEAt9pHqhg==",
+    "xunit.core/2.6.2": {
+      "sha512": "LxJ06D9uTDyvHY52+Lym2TUlq3ObgAKSTuzM9gniau8qI1fd/CPag4PFaGs0RJfunUJtYHg9+XrS5EcW/5dxGA==",
       "type": "package",
-      "path": "xunit.core/2.5.2-pre.6",
+      "path": "xunit.core/2.6.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5468,14 +5467,14 @@
         "build/xunit.core.targets",
         "buildMultiTargeting/xunit.core.props",
         "buildMultiTargeting/xunit.core.targets",
-        "xunit.core.2.5.2-pre.6.nupkg.sha512",
+        "xunit.core.2.6.2.nupkg.sha512",
         "xunit.core.nuspec"
       ]
     },
-    "xunit.extensibility.core/2.5.2-pre.6": {
-      "sha512": "0/PVA8hu1ExIXRsVF4aFhYzxCRCgjOJtiItm7qDItFAxV/ZQzZ1tm6kehXvuiDBcnbNaVv1WjoEgmcZQljQOzQ==",
+    "xunit.extensibility.core/2.6.2": {
+      "sha512": "T8CmshbP1EeaDibLwgU/aEe53zrW0+x+mEz5aKxexS5vVyj1UwgDUjcTK/+prMF/9KgMHkgx1vIe7wv58wO6RQ==",
       "type": "package",
-      "path": "xunit.extensibility.core/2.5.2-pre.6",
+      "path": "xunit.extensibility.core/2.6.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5488,14 +5487,14 @@
         "lib/net452/xunit.runner.utility.net452.dll",
         "lib/netstandard1.1/xunit.core.dll",
         "lib/netstandard1.1/xunit.core.xml",
-        "xunit.extensibility.core.2.5.2-pre.6.nupkg.sha512",
+        "xunit.extensibility.core.2.6.2.nupkg.sha512",
         "xunit.extensibility.core.nuspec"
       ]
     },
-    "xunit.extensibility.execution/2.5.2-pre.6": {
-      "sha512": "1TJTRgXJBJk4dyv/yoIJN2+mfQXa3B+JidkBBURUExGomcP5Tvmbdne62heLOr9nam4CAkZT2okOu/n2ZeQGng==",
+    "xunit.extensibility.execution/2.6.2": {
+      "sha512": "kKo7XqyLF8blXGqQHlqKQ+AzST42kpB7oG81Km/kFEzWVfeDMgaEquOLAr/ZiR4tnkUbbWYrY6CJPTavFqGn6Q==",
       "type": "package",
-      "path": "xunit.extensibility.execution/2.5.2-pre.6",
+      "path": "xunit.extensibility.execution/2.6.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5505,14 +5504,14 @@
         "lib/net452/xunit.execution.desktop.xml",
         "lib/netstandard1.1/xunit.execution.dotnet.dll",
         "lib/netstandard1.1/xunit.execution.dotnet.xml",
-        "xunit.extensibility.execution.2.5.2-pre.6.nupkg.sha512",
+        "xunit.extensibility.execution.2.6.2.nupkg.sha512",
         "xunit.extensibility.execution.nuspec"
       ]
     },
-    "xunit.runner.visualstudio/2.5.2-pre.10": {
-      "sha512": "a/9V6mW31luhp4T/VTBCw01Pn5kEYl5KoPS/6FBukTMyt0Bp66rRTNK8lO64DCHvMV3f/5T6y+hDT7T2wYDzXA==",
+    "xunit.runner.visualstudio/2.5.4": {
+      "sha512": "YUtEOBdArAISyb1cTWcHc6/bilSDB9q5lc8ughPQP1MqlAKSkxKMBqLQ+tiWMFRBd2o22E59nLD/4V5R3jfZxQ==",
       "type": "package",
-      "path": "xunit.runner.visualstudio/2.5.2-pre.10",
+      "path": "xunit.runner.visualstudio/2.5.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5530,18 +5529,18 @@
         "build/net6.0/xunit.runner.visualstudio.props",
         "lib/net462/_._",
         "lib/net6.0/_._",
-        "xunit.runner.visualstudio.2.5.2-pre.10.nupkg.sha512",
+        "xunit.runner.visualstudio.2.5.4.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Microsoft.AspNetCore.OpenApi >= 7.0.12",
-      "Microsoft.NET.Test.Sdk >= 17.9.0-preview-23503-02",
+      "Microsoft.AspNetCore.OpenApi >= 8.0.0",
+      "Microsoft.NET.Test.Sdk >= 17.9.0-preview-23577-04",
       "coverlet.collector >= 6.0.0",
-      "xunit >= 2.5.2-pre.6",
-      "xunit.runner.visualstudio >= 2.5.2-pre.10"
+      "xunit >= 2.6.2",
+      "xunit.runner.visualstudio >= 2.5.4"
     ]
   },
   "packageFolders": {
@@ -5591,11 +5590,11 @@
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
-            "version": "[7.0.12, )"
+            "version": "[8.0.0, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
-            "version": "[17.9.0-preview-23503-02, )"
+            "version": "[17.9.0-preview-23577-04, )"
           },
           "coverlet.collector": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -5605,13 +5604,13 @@
           },
           "xunit": {
             "target": "Package",
-            "version": "[2.5.2-pre.6, )"
+            "version": "[2.6.2, )"
           },
           "xunit.runner.visualstudio": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.5.2-pre.10, )"
+            "version": "[2.5.4, )"
           }
         },
         "imports": [
